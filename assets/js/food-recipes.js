@@ -45,6 +45,7 @@ function mainMenu() {
 
   if (!recipesInput()) {
     alert(exitRecipes);
+    return;
   }
   alert(successfullyAdded);
 }
